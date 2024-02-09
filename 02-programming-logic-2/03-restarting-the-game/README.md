@@ -1,0 +1,3 @@
+## Program Verification and Documentation Consultation
+
+In this project, we learned how to create a program to verify if the 'attempt' entered by the user is equal to the defined secret number. We utilized conditional structures to make decisions based on the result of this comparison. Additionally, we created a variable to store the number of attempts made by the user. We also recognized the importance of consulting the documentation of the language and libraries used in the development of the program. Documentation was acknowledged as a valuable source of information that helped us understand concepts and correctly utilize available functionalities.
