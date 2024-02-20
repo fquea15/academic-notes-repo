@@ -1,0 +1,44 @@
+header {
+    background-color: #BBBBBB;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.caja {
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/* Estilos anteriores */
+/* .caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+} */
+
+/* nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+} */
