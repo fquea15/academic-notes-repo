@@ -1,0 +1,94 @@
+/* MENU NAVEGATION */
+header {
+    background-color: #BBBBBB;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.caja {
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+
+/* CONTAINER CONTENT */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/* .productos {
+    width: 940px;
+    margin: 0 auto;
+} */
+.productos {
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.productos li {
+    /* display: inline-block; */
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* Estilos anteriores */
+/* .caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+} */
+
+/* nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+} */
