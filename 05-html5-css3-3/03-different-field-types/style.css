@@ -1,0 +1,166 @@
+/* MENU NAVEGATION */
+header {
+  background-color: #bbbbbb;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.caja {
+  width: 940px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+nav a:hover {
+  color: #c78c19;
+  border-bottom: 2px solid #c78c19;
+}
+
+/* CONTAINER CONTENT */
+main {
+  display: flex;
+  justify-content: center;
+}
+
+/* .productos {
+    width: 940px;
+    margin: 0 auto;
+} */
+.productos {
+  width: 940px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.productos li {
+  /* display: inline-block; */
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.productos li:hover {
+  border-color: #c78c19;
+}
+
+.productos li:active {
+  border-color: #088c19;
+}
+
+.productos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.productos li:hover h2 {
+  font-size: 33px;
+}
+
+.producto-descripcion {
+  font-size: 18px;
+}
+
+.producto-precio {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background: url(imagenes/bg.jpg);
+  padding: 40px 0;
+}
+
+.copyright {
+  color: #FFF;
+  font-size: 13px;
+  margin: 20px;
+}
+
+/* Estilos anteriores */
+/* .caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+} */
+
+/* nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+} */
+
+
+/* FORMULARIO */
+
+.main {
+  display: block;
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label, form p {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padron {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+/* p {
+  color: red;
+}
+
+#test {
+  color: purple;
+}
+
+.test {
+  color: blue;
+} */
+
+
+
+
